@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    color: #555;
+    background-color: black;
+}
+
+h1 {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-left: 80px;
+}
+.card {
+    background-color: white;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    overflow: hidden; 
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bio-info {
+    padding: 20px;
+}
+
+.bio-info h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.bio-info p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #555;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 15px 0;
+}
+
+.hobby-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.hobby-list li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.kontak-wrapper {
+    margin-top: 20px;
+}
+
+.kontak-wrapper p {
+    font-size: 16px;
+    color: #666;
+}
+
+.ig-link-kontak {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #e1306c;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 2px solid #e1306c;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.ig-link-kontak:hover {
+    background-color: #e1306c;
+    color: white;
+}
+
+.h3danp h3{
+    margin-left: 27%;
+}
+.h3danp p{
+    margin-left: 27%;
+}
